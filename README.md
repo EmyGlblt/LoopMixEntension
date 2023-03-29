@@ -81,7 +81,61 @@ Are there multiple versions of the dataset? yes A. If yes, name of file(s) that 
 
 Methods for processing the data: We use only the species label that were known from Ozra (2012) and the ALA (species identified after 2006). The other ALA data were considered as unknown and to be relabelled through our algorithm. We converted the specie coordinates to UTM. For more information refer to Guilbault et al., 2021.
 
-Instrument- or software-specific information needed to interpret the data: To use the data, the software R is to be used with the following packages: library(spatstat) library(lattice) library(sp) library(maptools) library(raster) library(geostatsp) library(rgdal) library(caret) library(gridExtra) library(grid) library(latticeExtra)
+Instrument- or software-specific information needed to interpret the data: To use the data, the software R is to be used with the following packages: 
+# CRAN ===============================
+- KernSmooth        [* -> 2.23-20]
+- MASS              [* -> 7.3-54]
+- Matrix            [* -> 1.5-1]
+- RColorBrewer      [* -> 1.1-3]
+- Rcpp              [* -> 1.0.7]
+- RcppEigen         [* -> 0.3.3.9.2]
+- abind             [* -> 1.4-5]
+- caret             [* -> 6.0-93]
+- data.table        [* -> 1.14.2]
+- digest            [* -> 0.6.29]
+- dplyr             [* -> 1.0.10]
+- e1071             [* -> 1.7-11]
+- ellipsis          [* -> 0.3.2]
+- evaluate          [* -> 0.17]
+- ggplot2           [* -> 3.3.6]
+- glue              [* -> 1.6.2]
+- gridExtra         [* -> 2.3]
+- gtable            [* -> 0.3.1]
+- jpeg              [* -> 0.1-9]
+- knitr             [* -> 1.40]
+- lattice           [* -> 0.20-44]
+- latticeExtra      [* -> 0.6-30]
+- lubridate         [* -> 1.8.0]
+- maptools          [* -> 1.1-4]
+- plyr              [* -> 1.8.6]
+- png               [* -> 0.1-7]
+- ppmlasso          [* -> 1.2]
+- purrr             [* -> 0.3.4]
+- reshape2          [* -> 1.4.4]
+- rgdal             [* -> 1.5-32]
+- rlang             [* -> 1.0.6]
+- rmarkdown         [* -> 2.17]
+- scales            [* -> 1.2.1]
+- sp                [* -> 1.5-0]
+- spatstat          [* -> 2.3-4]
+- spatstat.core     [* -> 2.4-4]
+- spatstat.data     [* -> 2.2-0]
+- spatstat.geom     [* -> 2.4-0]
+- spatstat.linnet   [* -> 2.3-2]
+- spatstat.random   [* -> 2.2-0]
+- spatstat.sparse   [* -> 2.1-1]
+- spatstat.utils    [* -> 2.3-1]
+- stringi           [* -> 1.7.4]
+- stringr           [* -> 1.4.1]
+- terra             [* -> 1.6-17]
+- tibble            [* -> 3.1.8]
+- tidyr             [* -> 1.2.1]
+- viridis           [* -> 0.6.2]
+- viridisLite       [* -> 0.4.1]
+
+
+The version of R recorded in the lockfile will be updated:
+- R                 [* -> 4.1.1]
 
 Standards and calibration information, if appropriate: NA
 Environmental/experimental conditions: NA
