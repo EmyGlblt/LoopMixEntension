@@ -29,7 +29,7 @@ Was data derived from another source? No.
 DATA & FILE OVERVIEW
 #.............................................
 File List: 
-  Scripts
+Scripts
     - ResSimLBtest1.r : performances measures plots based on the test 1 (unequal abundances and no correlation) for lasso and bias correction.
     - IntLB.r : How to plot the intensity distribution for the different initialization methods simulation results.
     - Coeffplot.r: hot to obtain the plot of the coefficient resulting from the simulations for 20, 50 and 80% of hidden observation for test 1.
@@ -37,7 +37,7 @@ File List:
     - LassoTestsimpackage23: functions used in the 
     - NewRealdata_Jan21.R: R script to analyse the real data.
 
-  Data file
+Data file
     - ResLBtest1.RDATA: Summarized performances results from the simulation of test 1 (unequal abundances and no correlation) for lasso and bias correction.
     - ResnoLnoBtest1.RDATA: Summarized performances results from the simulation of test 1 (unequal abundances and no correlation) without lasso and without bias correction.
     - ResnoLBtest1.RDATA: Summarized performances results from the simulation of test 1 (unequal abundances and no correlation) without lasso and with bias correction.
