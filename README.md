@@ -17,7 +17,8 @@ Table of contents
 
 
 ## GENERAL INFORMATION
-Author Information A. Principal Investigator Contact Information Name: Emy Guilbault Institution: The University of Helsinki Address: Yliopistonkatu 4, 00100 Helsinki, FINLAND, Email: guilbaultemy@gmail.com
+Author Information 
+A. Principal Investigator Contact Information Name: Emy Guilbault Institution: The University of Helsinki Address: Yliopistonkatu 4, 00100 Helsinki, FINLAND, Email: guilbaultemy@gmail.com
 
 B. Associate or Co-investigator Contact Information Name: Ian Renner Institution: The University of Newcastle Address: University Dr, Callaghan NSW 2308 Email: ian.renner@newcastle.edu.au
 
